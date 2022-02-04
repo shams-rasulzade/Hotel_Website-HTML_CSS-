@@ -8,6 +8,7 @@
 }
 
 
+
 /* Main Styling */
 
 html,body
@@ -33,7 +34,9 @@ p
 }
 
 
+
 /* Utility Classes */
+
 .container
 {
     margin: auto;
@@ -103,6 +106,8 @@ p
     font-size: 40px;
 }
 
+
+
 /* Padding */
 
 .py-1 /* padding for y axis */
@@ -118,14 +123,16 @@ p
     padding: 30px 0;
 }
 
+
+
 /* Navbar */
+
 #navbar
 {
     background: #333;
     color: #fff; /* this doesn't affect to links */
     overflow: auto;
 }
-
 
 #navbar a
 {
@@ -164,6 +171,7 @@ p
 }
 
 
+
 /* Showcase */
 
 #showcase
@@ -190,6 +198,7 @@ p
     padding-bottom: 20px;
     line-height: 1.7em;
 }
+
 
 
 /* Home Info */
@@ -222,7 +231,10 @@ p
     padding-bottom: 30px;
 }
 
+
+
 /* Features */
+
 .box
 {
     float:left;
@@ -235,6 +247,7 @@ p
 {
     margin-bottom: 10px;
 }
+
 
 
 /* About Info */
@@ -261,6 +274,8 @@ p
     width: 50%;
     min-height: 100%;
 }
+
+
 
 /* Testimonials */
 
@@ -296,8 +311,38 @@ p
 
 
 
+/* Contact Form */
 
+#contact-form .form-group
+{
+    margin-bottom: 20px;
+}
 
+#contact-form label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea
+{
+    height: 200px;
+}
+
+#contact-form input:focus ,
+#contact-form textarea:focus /* when we click these ares this code will run */
+{
+    outline: none;
+    border-color: #f7c08a;
+
+}
 
 
 
